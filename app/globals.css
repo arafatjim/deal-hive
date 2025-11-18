@@ -70,3 +70,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .hidden {
+    @apply hidden;
+  }
+}

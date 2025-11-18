@@ -15,7 +15,7 @@ const HeaderMenu = () => {
         <Link
         key={item?.title}
         href={item?.path}
-        className={`hover:scale-110 hover:animate-out md:hover:text-shop_btn_green hoverEffect relative group ${pathName === item?.path && 'text-shop_btn_green'}`}
+        className={`hidden hover:scale-110 hover:animate-out md:hover:text-shop_btn_green hoverEffect relative group ${pathName === item?.path && 'text-shop_btn_green'}`}
         >
             {item?.title}
             
